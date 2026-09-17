@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@keyframes BackgroundAnimation{
+  0%, 100%{
+    background-position: 0%, 50%;
+  }
+  50%{
+    background-position: 100%, 50%;
+  }
+}
+*{
+  font-family:'PlayFair Display', monospace;
+}
+body{
+  background: linear-gradient(45deg, #8d0000, #8d2600, #8d5000, #888d00);
+  background-attachment: fixed;
+  background-size: 500%;
+  animation: BackgroundAnimation 5s infinite ease;
+}
