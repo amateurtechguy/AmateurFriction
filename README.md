@@ -12,4 +12,5 @@ AmateurFriction is a human trained AI that helps you organize your time from a m
 As you boot up AmateurFriction, you see a form infront of you, no login required or anything, just a form that asks for the necessary details like the deadline of the task, what it is, any additional information needed stuff like that, the bot then analyses the time for you and how you would productively get it done JUST in time, and gives you the answer, simple!
 
 ## Credits:
-[background](https://vt.tiktok.com/ZSqsSGACS/)
+- [background](https://vt.tiktok.com/ZSqsSGACS/)
+- [form](https://www.youtube.com/watch?v=okbByPWS1Xc&list=PLImJ3umGjxdDqTlZhQxXBeGij9Oa9Xjnj)
