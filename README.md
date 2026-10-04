@@ -14,3 +14,9 @@ As you boot up AmateurFriction, you see a form infront of you, no login required
 ## Credits:
 - [background](https://vt.tiktok.com/ZSqsSGACS/)
 - [form](https://www.youtube.com/watch?v=okbByPWS1Xc&list=PLImJ3umGjxdDqTlZhQxXBeGij9Oa9Xjnj)
+- [button](https://youtu.be/b_8fHNIHFk4?si=-JZ33ojiBZrTqQQM)
+
+  ---
+## Creator:
+
+made by the amateur tech guy:D
