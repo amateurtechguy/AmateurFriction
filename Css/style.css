@@ -59,8 +59,7 @@ header{
     font-size:30px;
     cursor:pointer;
     box-shadow:0 0 12px #d1cec9,0 0 25px #b3b2b0;
-    transition:.3s;
-    
+    transition:.3s;  
 }
 .help:hover{
     box-shadow:0 0 18px #e5e4e2,0 0 35px #fffffe;
