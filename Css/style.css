@@ -1,19 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
 
-@keyframes BackgroundAnimation{
-  0%, 100%{
-    background-position: 0%, 50%;
-  }
-  50%{
-    background-position: 100%, 50%;
-  }
+@keyframes bg{
+    0%,100%{background-position:0 50%}
+    50%{background-position:100% 50%}
 }
+
 *{
-  font-family:'PlayFair Display', monospace;
+    box-sizing:border-box;
+    font-family:'Playfair Display',serif;
 }
 body{
-  background: linear-gradient(45deg, #8d0000, #8d2600, #8d5000, #888d00);
-  background-attachment: fixed;
-  background-size: 500%;
-  animation: BackgroundAnimation 5s infinite ease;
+    margin:0;
+    min-height:100vh;
+    background:linear-gradient(45deg,#120f0f,#353435,#1a1919,#2c2c2e);
+    background-size:500%;
+    background-attachment:fixed;
+    animation:bg 4s infinite ease;
+}
+header{
+    position:sticky;
+    top:0;
+    z-index:5;
+    background:#2f2b2b;
+    justify-content:space-between;
+    padding:20px 10%;
+    box-shadow: 10px 2px 8px rgba(53, 52, 52, 0.819);
+}
+.slogan h1{
+    margin:0 0 10px 30px;
+    font-size:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:30px;
+}
+.slogan p{
+    margin:0;
+    font-size:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.helptext{
+    display:flex;
+    text-decoration:none;
+    justify-content: right;
+}
+.help{
+    position:relative;
+    z-index:1;
+    width:60px;
+    height:50px;
+    padding:0;
+    border:0;
+    border-radius:50%;
+    background:#f8f7f4;
+    color:black;
+    font-size:30px;
+    cursor:pointer;
+    box-shadow:0 0 12px #d1cec9,0 0 25px #b3b2b0;
+    transition:.3s;
+    
+}
+.help:hover{
+    box-shadow:0 0 18px #e5e4e2,0 0 35px #fffffe;
+}
+main{
+    padding:30px 0;
+}
+.information{
+    display:flex;
+    gap:30px;
+    max-width:960px;
+    width:100%;
+    background:#39383f;
+    padding:40px;
+    margin: auto;
+    border-radius:10px;
+}
+.title{
+    font-size:50px;
+    position:relative;
+}
+.title:after{
+    content:"";
+    display:block;
+    width:40px;
+    height:3px;
+    background:#4a4947;
+}
+.user-details{
+    display:flex;
+    flex-direction:
+    column;
+    gap:10px;
+}
+.input-box{
+    font-size:30px; 
+}
+.input-box span{
+    display:block;
+}
+input,textarea{
+    font-size:16px;
+    padding:7px;
+}
+textarea{
+    resize:vertical;
+}
+.submit{
+    margin-top:20px;
+    cursor:pointer;
+    border-radius: 20px;
+}
+footer{
+    margin-top:10px;
+}
+footer hr{
+    border:0;
+    border-top:2px solid #ddd;
+}
+footer p{
+    text-align:center;
+    color:white;
+    font-size:20px;
+    margin:30px;
 }

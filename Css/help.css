@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@keyframes BackgroundAnimation{
+    0%, 100%{
+        background-position: 0%, 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+}
+
+*{
+    font-family: 'Playfair Display', impact;
+    box-sizing:border-box;
+}
+body{
+    background: linear-gradient(45deg, #120f0f,
+    #353435, #1a1919, #2c2c2e);
+    background-attachment: fixed;
+    background-size: 500%;
+    animation: BackgroundAnimation 4s infinite ease;
+    margin:0;
+    padding:0;
+}
+header{
+    position:sticky;
+    top:0;
+    z-index:5;
+    background:#2f2b2b;
+    justify-content:space-between;
+    padding:20px 10%;
+    box-shadow: 10px 2px 8px rgba(53, 52, 52, 0.819);
+}
+.slogan h1{
+    margin:0 0 10px 30px;
+    font-size:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:30px;
+}
+.slogan p{
+    margin:0;
+    font-size:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.question{
+    font-size: 30px;
+    color: white;
+}
+.answer{
+    font-size: 20px;
+    color: white;
+}
+.copyright{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size:20px;
+    color:white;
+}
+.hometext{
+    display:flex;
+    text-decoration:none;
+    justify-content: right;
+}
+.home{
+    text-align: center;
+    position:relative;
+    z-index:1;
+    width:60px;
+    height:50px;
+    padding:0;
+    border:0;
+    border-radius:50%;
+    background:#f8f7f4;
+    color:black;
+    font-size:30px;
+    cursor:pointer;
+    box-shadow:0 0 12px #d1cec9,0 0 25px #b3b2b0;
+    transition:.3s;
+}
+.home:hover{
+    box-shadow:0 0 18px #e5e4e2,0 0 35px #fffffe;
+}

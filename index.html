@@ -4,31 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AmateurFriction</title>
+    <link rel="icon" type="img/png" href="images/favicon.png">
     <link rel="stylesheet" href="Css/style.css">
-<header>
-    <div class="slogan">
-    <h1>AmateurFriction</h1>
-    <p>Turn your deadline into a realistic plan.</p>
+</head>
+<body>
+    <header>
+        <div class="slogan">
+        <h1>AmateurFriction</h1>
+        <p>Turn your urgent deadline into an organized plan.</p>
+        </div>
+        <a href="help.html" class="helptext">
+        <button class="help" type="help">?</button>
+        </a>
+    </header>
+    <br>
+        <div class="information">
+            <div class="title">Information</div>
+            <form action="">
+                <div class="user-details">
+                <div class="input-box">
+                    <span class="Task">Task</span>
+                    <input type="text" placeholder="Enter the desired task" required>
+                </div>
+                <div class="input-box">
+                    <span class="Date">Date</span>
+                    <input type="Date" placeholder="Date of the required task" required>
+                </div>
+                  <div class="input-box">
+                    <span class="Time">Time</span>
+                    <input type="time" placeholder="Time of the required task" required>
+                </div>
+                  <div class="input-box">
+                    <span class="Extra">Extra information</span>
+                    <textarea type="text" placeholder="Anything else you want to add?" required></textarea>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+      </div>
     </div>
-    <div class="information">
-        <form id="AIform">
-            <label for="date">When is the deadline of your desired task?</label>
-            <br>
-            <input type="date" id="date">
-            <br>
-            <label for="time">Select time:</label>
-            <br>
-            <input for="time" id="time" name="time">
-            <br>
-            <br>
-        <textarea class="question" id="question" placeholder="What is the task?">
-        </textarea> 
-        <br>
-            <textarea class="additional" id="additional" placeholder="Anything else you'd like to let us know about?">
-            </textarea>
-            <br>
-            <button class="submit">Submit</button>
-            </form>
-    </div>
+    </header>
 </body>
+<br>
+        <footer>
+    <hr>
+        <p class="copyright"> © 2026 Copyright reserved. The amateur tech guy. </p>
+ </footer>
 </html>
