@@ -3,6 +3,8 @@ Has anyone ever decided to randomly lock in last minute but just got confused, n
 
 AmateurFriction is the site for you!
 
+<img width="912" height="427" alt="image" src="https://github.com/user-attachments/assets/539772ea-e3ab-40f8-942e-96211fd11e5e" />
+
 ## What is this?
 
 AmateurFriction is a human trained AI that helps you organize your time from a messy, stressful situation, to a very productive and well organized one!
@@ -10,12 +12,6 @@ AmateurFriction is a human trained AI that helps you organize your time from a m
 ## How it works:
 
 As you boot up AmateurFriction, you see a form infront of you, no login required or anything, just a form that asks for the necessary details like the deadline of the task, what it is, any additional information needed stuff like that, the bot then analyses the time for you and how you would productively get it done JUST in time, and gives you the answer, simple!
-
-## Credits:
-- [background](https://vt.tiktok.com/ZSqsSGACS/)
-- [form](https://www.youtube.com/watch?v=okbByPWS1Xc&list=PLImJ3umGjxdDqTlZhQxXBeGij9Oa9Xjnj)
-- [button](https://youtu.be/b_8fHNIHFk4?si=-JZ33ojiBZrTqQQM)
-
   ---
 ## Creator:
 
