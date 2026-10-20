@@ -5,7 +5,13 @@ import "dotenv/config";
 const app = express();
 app.use(
   cors({
-    origin: ["https://amateurtechguy.github.io", "http://127.0.0.1:5500"],
+    origin: [
+      "https://amateurtechguy.github.io",
+      "http://127.0.0.1:5500",
+      "http://127.0.0.1:5501",
+      "http://localhost:5500",
+      "http://localhost:5501",
+    ],
   }),
 );
 app.use(express.json({ limit: "10kb" }));
@@ -20,7 +26,9 @@ Rules:
 - If there is very little time, skip rests and prioritise the essentials.
 - Use 24h HH:MM times.
 Reply with JSON only: {"plan":[{"start":"HH:MM","end":"HH:MM","type":"work|break|rest|review","activity":"short description"}],"tip":"one short motivating sentence"}`;
-
+app.get("/api/health", (req, res) => {
+  res.json({ status: "ok", message: "Server is running" });
+});
 app.post("/api/plan", async (req, res) => {
   const { task, deadline, now, extra } = req.body || {};
   if (!task || !deadline || !now) {
