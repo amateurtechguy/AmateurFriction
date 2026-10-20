@@ -48,7 +48,7 @@ Extra info: ${String(extra || "none").slice(0, 1000)}`;
         Authorization: `Bearer ${process.env.GROQ_API_KEY}`,
       },
       body: JSON.stringify({
-        model: "llama-3.3-70b-versatile",
+        model: "openai/gpt-oss-120b",
         temperature: 0.4,
         response_format: { type: "json_object" },
         messages: [
@@ -58,6 +58,7 @@ Extra info: ${String(extra || "none").slice(0, 1000)}`;
       }),
     });
     if (!r.ok) {
+      console.log(r.status, await r.text());
       return res
         .status(502)
         .json({ error: "AI provider error", status: r.status });

@@ -1,56 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AmateurFriction</title>
-    <link rel="icon" type="img/png" href="images/favicon.png">
-    <link rel="stylesheet" href="Css/style.css">
-</head>
-<body>
+    <link rel="icon" type="img/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="slogan">
+      <div class="slogan">
         <h1>AmateurFriction</h1>
         <p>Turn your urgent deadline into an organized plan.</p>
-        </div>
-        <a href="help.html" class="helptext">
-        <button class="help" type="help">?</button>
-        </a>
-    </header>
-    <br>
-        <div class="information">
-            <div class="title">Information</div>
-            <form action="">
-                <div class="user-details">
-                <div class="input-box">
-                    <span class="Task">Task</span>
-                    <input type="text" placeholder="Enter the desired task" required>
-                </div>
-                <div class="input-box">
-                    <span class="Date">Date</span>
-                    <input type="Date" placeholder="Date of the required task" required>
-                </div>
-                  <div class="input-box">
-                    <span class="Time">Time</span>
-                    <input type="time" placeholder="Time of the required task" required>
-                </div>
-                  <div class="input-box">
-                    <span class="Extra">Extra information</span>
-                    <textarea type="text" placeholder="Anything else you want to add?" required></textarea>
-                </div>
-            </div>
-            <div class="submit">
-                <input type="submit" value="Submit">
-            </div>
-        </form>
       </div>
-    </div>
+      <a href="help.html" class="helptext">
+        <button class="help" type="button">?</button>
+      </a>
     </header>
-</body>
-<br>
-        <footer>
-    <hr>
-        <p class="copyright"> © 2026 Copyright reserved. The amateur tech guy. </p>
- </footer>
- <script src="js/plan.js"></script>
+    <div class="information">
+      <div class="title">Information</div>
+      <form id="plan-form" action="">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="Task">Task</span>
+            <input
+              id="task"
+              type="text"
+              placeholder="Enter the desired task"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="Date">Date</span>
+            <input
+              id="date"
+              type="date"
+              placeholder="Date of the required task"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="Time">Time</span>
+            <input
+              id="time"
+              type="time"
+              placeholder="Time of the required task"
+              required
+            />
+          </div>
+          <div class="input-box">
+            <span class="Extra">Extra information</span>
+            <textarea
+              id="extra"
+              placeholder="Anything else you want to add?"
+            ></textarea>
+          </div>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    <footer>
+      <hr />
+      <p class="copyright">© 2026 Copyright reserved. The amateur tech guy.</p>
+    </footer>
+    <script src="js/plan.js"></script>
+  </body>
 </html>
