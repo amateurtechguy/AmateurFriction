@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/api/plan";
+const API_URL = "https://amateur-friction-server.vercel.app/api/plan";
 
 const pad = (n) => String(n).padStart(2, "0");
 
