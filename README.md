@@ -15,7 +15,8 @@ As you boot up AmateurFriction, you see a form infront of you, no login required
 
 ## Credits:
 - [background](https://vt.tiktok.com/ZSqsSGACS/)
-- Minimal AI usage
+- [Groq API](https://console.groq.com/keys)
+- Node modules
   
   ---
 ## Creator:
