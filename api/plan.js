@@ -6,7 +6,8 @@ Rules:
 - Add a longer rest or meal break if the plan is longer than 3 hours.
 - Leave a 10 to 15 minute buffer before the deadline for review.
 - If there is very little time, skip rests and prioritise the essentials.
-- Use 24h HH:MM times.
+- Use 12h HH:MM times.
+- Make sure to include sleep time if it's over 1AM.
 Reply with JSON only: {"plan":[{"start":"HH:MM","end":"HH:MM","type":"work|break|rest|review","activity":"short description"}],"tip":"one short motivating sentence"}`;
 
 const ALLOWED = [
