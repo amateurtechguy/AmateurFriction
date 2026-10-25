@@ -23,6 +23,7 @@ As you boot up AmateurFriction, you see a form infront of you, no login required
 - [background](https://vt.tiktok.com/ZSqsSGACS/)
 - [Groq API](https://console.groq.com/keys)
 - Node modules
+- [code for the AI](https://youtu.be/Qkt6hJT4OYA?si=2YGbfAbXAztMsv3E)
   
   ---
 ## Creator:
