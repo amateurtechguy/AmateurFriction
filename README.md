@@ -24,7 +24,11 @@ As you boot up AmateurFriction, you see a form infront of you, no login required
 - [Groq API](https://console.groq.com/keys)
 - Node modules
 - [code for the AI](https://youtu.be/Qkt6hJT4OYA?si=2YGbfAbXAztMsv3E)
-- Used ChatGPT to debug and help me install Groq API, also picked the coloring because my old one was kind of ugly!
+  
+## AI usage declaration:
+
+Used ChatGPT to debug and help me install Groq API, also picked the coloring because my old one was kind of ugly!
+
   ---
 ## Creator:
 
